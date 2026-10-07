@@ -87,3 +87,6 @@ body[data-view="script"] .script-art .dialogue strong { color:var(--gold); }
   .site-layout { display:block; max-width:none; padding:0; }
   :root,:root[data-theme="dark"],:root[data-theme="light"] { color-scheme:light; --page:#fff; --paper:#fff; --text:#111; --muted:#444; --border:#ccc; --soft:#f7f7f7; --accent:#254754; --gold:#5c492e; }
 }
+.site-tools .site-home { display:inline-flex; align-items:center; justify-content:center; flex:0 0 44px; width:44px; min-width:44px; height:44px; min-height:44px; margin:0 0 0 auto; padding:0; border:1px solid var(--border); border-radius:6px; background:var(--paper); color:var(--text); text-decoration:none; }
+.site-tools .site-home:hover { background:var(--accent-soft); }
+.site-home svg { width:22px; height:22px; pointer-events:none; }
